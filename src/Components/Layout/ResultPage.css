@@ -1,0 +1,56 @@
+.result-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  width: 450px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.score-circle {
+  margin: 20px auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pass {
+  background: #4caf50;
+}
+
+.fail {
+  background: #e53935;
+}
+
+.score-details {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.result-card button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background: #243b55;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result-card button:hover {
+  opacity: 0.9;
+}

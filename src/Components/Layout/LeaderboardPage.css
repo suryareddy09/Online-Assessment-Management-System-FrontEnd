@@ -1,0 +1,38 @@
+.leaderboard-container {
+  padding: 40px;
+  background: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+.leaderboard-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.leaderboard-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.leaderboard-table th {
+  background: #334155;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background: #1e293b;
+}
+
+.leaderboard-table tr:hover {
+  background: #475569;
+}

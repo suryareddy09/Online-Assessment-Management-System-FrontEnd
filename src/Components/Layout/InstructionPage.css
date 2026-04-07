@@ -1,0 +1,88 @@
+.superset-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* LEFT PANEL */
+.instruction-left {
+  flex: 2;
+  padding: 40px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction-left h2 {
+  margin-bottom: 20px;
+}
+
+.instruction-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.instruction-scroll ul {
+  margin-bottom: 20px;
+}
+
+.instruction-scroll li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.agree-section {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.start-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: not-allowed;
+  transition: 0.3s;
+}
+
+.start-btn.enabled {
+  background-color: #1f73b7;
+  cursor: pointer;
+}
+
+.start-btn.enabled:hover {
+  background-color: #155d94;
+}
+
+/* RIGHT PANEL */
+.instruction-right {
+  flex: 1;
+  background-color: #eef2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-card {
+  background: white;
+  width: 80%;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.summary-card h3 {
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+}

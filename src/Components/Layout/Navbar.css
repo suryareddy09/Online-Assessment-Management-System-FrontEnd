@@ -1,0 +1,73 @@
+.navbar {
+  background: #0f172a;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-logo a {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.login {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.signup {
+  background: #3b82f6;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background: white;
+  color: black;
+  padding: 10px 0;
+  border-radius: 6px;
+  width: 120px;
+}
+
+.dropdown div {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.dropdown div:hover {
+  background: #f1f1f1;
+}
